@@ -37,8 +37,8 @@ export default function About() {
           love with the process of creating something from scratch.
         </p>
         <p className="mb-3 sm:mb-4">
-          What began as curiosity soon turned into a passion. Now, coding isn't
-          just a skill for me it's my hobby, my work and something I genuinely
+          What began as curiosity soon turned into a passion. Now, coding {"isn't"}
+          just a skill for me {"it's"} my hobby, my work and something I genuinely
           enjoy every day.
         </p>
         <p>

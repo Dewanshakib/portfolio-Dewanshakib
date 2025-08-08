@@ -8,12 +8,12 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="w-full mt-16 p-5 md:p-8">
+    <div className="w-full   md:p-8" id="home">
       <motion.div
         initial={{ opacity: 0, y: -50, scale: 0, rotate: -300 }}
         animate={{ opacity: 1, y: 0, scale: 1, rotate: 0 }}
         transition={{ duration: 0.3, ease: "circOut" }}
-        className="relative w-44 h-44 sm:w-50 sm:h-50 rounded-full overflow-hidden"
+        className="relative w-44 h-44 sm:w-50 sm:h-50 rounded-full overflow-hidden "
       >
         <Image
           className="object-cover"
@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 0.45, ease: "easeInOut" }}
           className="text-2xl md:text-4xl font-bold mb-4 text-gray-900"
         >
-          Hey, I'm <span className="text-neutral-500">Shakib</span>
+          Hey, {"I'm"} <span className="text-neutral-500">Shakib</span>
         </motion.h1>
         <motion.p
           initial={{ y: 80, opacity: 0 }}
@@ -43,14 +43,14 @@ export default function Hero() {
           Always learning, always building. {"Let’s"} make something awesome.
         </motion.p>
       </div>
-      <div className="mt-8 sm:mt-12">
+      <div className="mt-8 sm:mt-12 flex flex-col md:flex-row md:gap-x-12 md:items-center">
         <motion.a
           href="/resume.pdf"
           download="resume.pdf"
           initial={{ opacity: 0, y: 20, scale: 0 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.2, ease: "easeInOut" }}
-          className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800 hover:scale-105 active:scale-95 text-sm sm:text-base"
+          className="inline-flex w-fit items-center gap-2 px-6 py-3 bg-black text-white rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800 hover:scale-105 active:scale-95 text-sm sm:text-base"
         >
           <Download size={18} />
           Download Resume
@@ -61,7 +61,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
-          className="flex space-x-6 justify-center -mt-8.5"
+          className="flex space-x-6 justify-start ml-2 mt-6 md:mt-0 md:justify-center"
         >
           <Link
             href="https://github.com/Dewanshakib"

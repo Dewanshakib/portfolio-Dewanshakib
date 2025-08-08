@@ -1,12 +1,10 @@
 import { sendEmail } from "@/service/mail";
-import { NextRequest, NextResponse } from "next/server";
-
+import type { NextRequest } from "next/server";
 
 
 export async function POST(
-    req: NextRequest, res: NextResponse
+    req: NextRequest
 ) {
-
 
     const { name, email, message } = await req.json()
     if (!name || !email || !message) {

@@ -62,6 +62,39 @@ const projects: Project[] = [
     preview: "https://shostir-saya-lovat.vercel.app/",
     repo: "https://github.com/Dewanshakib/Shostir-Saya---2025",
   },
+  {
+    title: "Fullstack Todo App",
+    description:
+      "A minimal and responsive task manager to add, edit, complete, and delete tasks, helping you stay organized anytime, anywhere..",
+    stacks: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "MongoDB",
+      "Prisma",
+      "Auth.js",
+      "Shadcn/ui",
+      "bcryptjs",
+    ],
+    preview: "https://todo-app-beta-tawny-88.vercel.app/",
+    repo: "https://github.com/Dewanshakib/Todo-App",
+  },
+  {
+    title: "MERN Blog App",
+    description:
+      "MERN Blog – A full-featured blogging platform built with MongoDB, Express, React, and Node.js, allowing users to create, read, update, and delete posts with image uploads for rich, engaging content.",
+    stacks: [
+      "React.js",
+      "MongoDB",
+      "Mongoose",
+      "Multer",
+      "Cloudinary",
+      "bcryptjs",
+      "React hot toast",
+    ],
+    repo: "https://github.com/Dewanshakib/mern-blog-app",
+    preview: "https://mern-blog-app-kic0.onrender.com/",
+  },
 ];
 
 // Variants for fade-in + slide-up
@@ -70,7 +103,7 @@ const cardVariants: Variants = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.2, type: "spring", stiffness: 120 },
+    transition: { delay: i * 0.1, type: "spring", stiffness: 120 },
   }),
 };
 
