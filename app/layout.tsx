@@ -13,7 +13,7 @@ const fontInter = Inter({
 export const metadata: Metadata = {
   title: "Dewan Shakib • Personal Portfolio",
   description:
-    "Dewan Shakib is a fullstack web developer with 2 plus of experience",
+    "Dewan Shakib is a fullstack web developer with 2 year plus of experience",
 };
 
 export default function RootLayout({
