@@ -22,6 +22,7 @@ A modern, responsive personal portfolio website showcasing my **projects**, **sk
 * **Frontend:** Next.js, React.js
 * **Styling:** Tailwind CSS
 * **Animations:** Framer Motion
+* **Services:** Nodemailer
 * **Deployment:** Vercel
 
 ---
