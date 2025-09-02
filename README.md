@@ -30,8 +30,8 @@ A modern, responsive personal portfolio website showcasing my **projects**, **sk
 
 If you’d like to connect or have any feedback, feel free to reach out:
 
-* **Email:** [your@email.com](mailto:shakib.devv@gmail.com)
-* **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/dewan-md-shakib-al-mujib-892900372/)
-* **GitHub:** [yourusername](https://github.com/Dewanshakib)
+* **Email:** [My Gmail](mailto:shakib.devv@gmail.com)
+* **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/dewan-md-shakib-al-mujib-892900372/)
+* **GitHub:** [My Github](https://github.com/Dewanshakib)
 
 ---
