@@ -13,8 +13,8 @@ const skillsData = {
     "Framer motion",
   ],
   "State Management": ["Redux", "Zustand"],
-  Backend: ["Node.js", "Express.js"],
-  Database: ["MongoDB", "Mongoose", "Prisma", "SQL", "Redis", "Upstash"],
+  Backend: ["Node.js", "Express.js", "Hono"],
+  Database: ["MongoDB", "SQL", "Mongoose", "Prisma ORM", "Redis", "Upstash"],
   "Form & Validation": ["React Hook Form", "Zod"],
   "Backend Services": ["Nodemailer"],
 };
