@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     title: "Preronaa",
     description:
-      "Preronaa is your chill, aesthetic digital pinboard — like Pinterest, but cooler. Save pins, add captions, connect through likes and comments, and keep your profile fresh. Built for modern creators with smart, sleek features.",
+      "Preronaa is your chill, aesthetic digital pinboard. Save pins, add captions, connect through likes and comments, and keep your profile fresh. Built for modern creators with smart, sleek features.",
     stacks: [
       "React",
       "Next.js",
